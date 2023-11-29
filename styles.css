@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+    color: blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+.names {
+    font-family: "Sans Serif";
+    font-size: larger;
+}
+
+.price {
+    color: brown;
+    cursor: pointer;
+}
+
+.price:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.product {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 340px) {
+    body {
+        font-size: 14px;
+    }}
